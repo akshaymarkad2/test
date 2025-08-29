@@ -1,0 +1,11 @@
+Multiple AWS Accounts
+    │
+    ├── AWS Organizations
+    │   └── Cross-Account IAM Roles
+    │
+    ├── AWS Systems Manager (SSM)
+    │   └── Fleet Manager
+    │
+    ├── CloudWatch
+    │   ├── Metrics
+    │   └── Dashboards
