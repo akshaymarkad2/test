@@ -16,6 +16,11 @@
 - Custom metrics configuration
 - 5-minute collection interval
 - Centralized dashboard in CloudWatch
+
+**Scalability**
+- Horizontal scaling capabilities
+- Auto-discovery of new resources
+- Multi-region support
   
 **Implementation Steps:**
 - Deploy cross-account IAM roles
