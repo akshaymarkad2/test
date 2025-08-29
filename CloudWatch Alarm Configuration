@@ -1,0 +1,25 @@
+{
+    "AlarmName": "DiskUsageWarning",
+    "ComparisonOperator": "GreaterThanThreshold",
+    "EvaluationPeriods": 3,
+    "MetricName": "disk_used_percent",
+    "Namespace": "CWAgent",
+    "Period": 300,
+    "Statistic": "Average",
+    "Threshold": 75,
+    "AlarmActions": ["arn:aws:sns:region:account-id:disk-usage-alerts"],
+    "Dimensions": [
+        {
+            "Name": "InstanceId",
+            "Value": "INSTANCE_ID"
+        },
+        {
+            "Name": "fstype",
+            "Value": "ext4"
+        },
+        {
+            "Name": "path",
+            "Value": "/"
+        }
+    ]
+}
